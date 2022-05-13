@@ -1,0 +1,255 @@
+.wallpaper {
+    background-image: url(a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+#mainlogo{
+    color: darkblue;
+    font-family: fantasy;   
+}
+
+
+.search {
+    width: 330px;
+    float: right;
+    margin-left: 270px;
+
+}
+
+.srch {
+    font-family: Times New Roman;
+    width: 250px;
+    height: 20px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    margin-top: 0px;
+    color: #fff;
+    border-left: #ff7200;
+    font-size: 16px;
+    float: left;
+    padding: 0px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.click {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 1px solid #ff7200;
+    margin-top: 0px;
+    color: crimson;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.click:focus {
+outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.paragraph {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.729);
+    padding: 5px;
+    margin: 50px;
+}
+
+.text {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    margin: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.navbar {
+    text-decoration: solid;
+    color: black;
+    font-family: fantasy;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.btn {
+    display: flex;
+    float: none;
+    justify-content: space-evenly;
+    font-size: 28px;
+    background-color: black;
+    
+}
+
+
+.txt {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.txt {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    margin: 50px;
+}
+
+
+.image {
+     display: flex;
+    justify-content:space-evenly;
+}
+   
+
+.dot {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    list-style: none;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient( to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%);
+    position: relative;
+    top: 0px;
+    left:800px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+
+}
+
+.form input {
+
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+
+.ctn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.ctn:hover {
+
+background: #fff;
+color: #ff7200;
+}
+
+.ctn{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 0px;
+    text-align: centre;
+    color: #fff;
+
+}
+
+.form .link a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.liw{
+    padding-top: -40px;
+    padding-bottom: -40px;
+    text-align: center;
+    color: #fff;
+
+}
+.icons a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-top: -40px;
+    transition: 0.3s ease;
+
+}
+
+.icons ion-icon:hover{
+    color: #ff7200;
+}
